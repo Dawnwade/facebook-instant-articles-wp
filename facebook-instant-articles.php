@@ -400,5 +400,5 @@ if ( version_compare( PHP_VERSION, '5.4', '<' ) ) {
 	}
 	add_action( 'wp', 'op_markup_version' );
 
-	Instant_Articles_Setup::init();
+	Instant_Articles_Wizard::init();
 }
